@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html ng-app="Expenses">
+<head>
+	<title>Expenses</title>
+	<link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css" />
+	<script type="text/javascript" src="bower_components/angular/angular.js"></script>
+	<script type="text/javascript" src="bower_components/jquery/dist/jquery.js"></script>
+	<script type="text/javascript" src="bower_components/bootstrap/dist/js/bootstrap.js"></script>
+	<script type="text/javascript" src="controllers/MainController.js"></script>
+</head>
+<body>
+	<section ng-controller="MainController">
+		{{"Nombre " + name}}
+		<ul ng-repeat="obj in objects" class="list-group">
+			<li class="list-group-item">
+				<p> User ID: {{obj.userId}}</p>
+				<p> ID: {{obj.id}}</p>
+				<p> Title: {{obj.title}}</p>
+				<p> Body: {{obj.body}}</p>
+			</li>
+		</ul>
+	</section>
+</body>
+
+</html>	

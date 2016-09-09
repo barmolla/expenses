@@ -1,0 +1,21 @@
+{
+  "name": "expenses",
+  "description": "This application help me to control my daily expenses",
+  "main": "server.js",
+  "authors": [
+    "Brian Alexis Armolla"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/barmolla/expenses",
+  "moduleType": [],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "^1.5.8",
+    "bootstrap": "^3.3.7"
+  }
+}

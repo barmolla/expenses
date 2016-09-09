@@ -15,5 +15,9 @@
   "bugs": {
     "url": "https://github.com/barmolla/expenses/issues"
   },
-  "homepage": "https://github.com/barmolla/expenses#readme"
+  "homepage": "https://github.com/barmolla/expenses#readme",
+  "dependencies": {
+    "bower": "^1.7.9",
+    "express": "^4.14.0"
+  }
 }

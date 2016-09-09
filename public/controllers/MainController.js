@@ -2,8 +2,8 @@ var myApp = {
 	APIURL: "https://jsonplaceholder.typicode.com/posts"
 };
 
-angular.module("Test", [])
-	.controller("TestController1", ["$scope", "$http", function(s, h){
+angular.module("Expenses", [])
+	.controller("MainController", ["$scope", "$http", function(s, h){
 		s.name = "Brian";
 		s.objects = {};
 
@@ -15,6 +15,3 @@ angular.module("Test", [])
 				console.log(err);
 			});
 	}])
-	.controller("TestController2", ["$scope", "$http", function(s, h){
-		s.surname = "ASD";
-	}]);
